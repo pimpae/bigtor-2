@@ -246,6 +246,31 @@ nav .order-2 form input[type="text"]:focus{
   transition: box-shadow .3s ease-out;
   color: #000;
 }
+
+.more-m2{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding: 4px 22px 4px 22px;
+  background-color: #5c5c5c;
+  border-radius: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: supermarket;
+  font-size: 20px; 
+}
+.more-m2:hover{ 
+  background-color: #000; 
+  transition: box-shadow .3s ease-out;
+  color: #d3d5d6;
+}
+.more-m2 img{ 
+  height: 16px;
+}
+
+
 .box2{   
   margin-bottom: 15px;
 }
@@ -416,6 +441,79 @@ footer .f-2 .bb2 a{
   color: #fff; 
   font-family: supermarket; 
   font-size: 24px;
+}
+.carousel-indicators.li-c{ 
+  margin-bottom: -45px; 
+}
+
+.carousel-indicators.li-c li{
+  width: 12px;
+  height: 12px;
+  border-radius: 100%; 
+  background-color: #919598;
+}
+
+.np-view h2{
+  font-family: supermarket; 
+  font-size: 34px;
+  color: #000000;
+}
+
+.np-view p{
+  font-family: supermarket;  
+  color: #000000;
+  font-size: 20px; 
+}
+
+.np-view p span{
+  font-family: supermarket;  
+  color: #000000;
+  font-size: 22px;
+}
+
+
+.box-appd{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.box-appd h3{
+  text-align: center;
+  font-family: supermarket; 
+  color: #ffffff;
+  font-size: 44px;
+}
+.box-appd p{
+  font-family: supermarket; 
+  color: #ffffff;
+  font-size: 24px;
+}
+.dropdown-toggle:after { content: none }
+
+
+.navbar .navbar-collapse .dropdown-menu{
+  background-color: rgba(31,31,31,.8); 
+  color: #fff;
+  font-family: supermarket; 
+  padding: 0rem 0;
+  margin:   0;
+  border-radius: 0px;
+}
+.navbar .navbar-collapse .dropdown-menu{
+  background-color: rgba(31,31,31,.8); 
+  color: #fff;
+  font-family: supermarket; 
+}
+.navbar .navbar-collapse .dropdown-menu .dropdown-item{ 
+  color: #fff;
+  font-family: supermarket; 
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.navbar .navbar-collapse .dropdown-menu .dropdown-item:hover{ 
+  background-color: rgba(31,31,31,1); 
 }
 
 
