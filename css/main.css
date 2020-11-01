@@ -190,6 +190,12 @@ nav .order-2 form input[type="text"]:focus{
   background-repeat: no-repeat; 
 }
 
+.m-body2{ 
+  background: url(../images/bg-main.webp);
+  background-position: top center;
+  background-repeat: no-repeat; 
+}
+
 .box1{
   margin-top: 10px; 
   background-color: #242c31;
