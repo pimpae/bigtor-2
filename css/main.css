@@ -193,7 +193,8 @@ nav .order-2 form input[type="text"]:focus{
 .m-body2{ 
   background: url(../images/bg-main.webp);
   background-position: top center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;  
+  background-size: 100% 100% ;
 }
 
 .box1{
@@ -520,6 +521,98 @@ footer .f-2 .bb2 a{
 }
 .navbar .navbar-collapse .dropdown-menu .dropdown-item:hover{ 
   background-color: rgba(31,31,31,1); 
+}
+
+
+.index-t h1{
+  color: #283135;
+  font-family: supermarket;
+  text-align: center; 
+  font-size: 60px;
+}
+
+.index-t p{
+  color: #283135;
+  font-family: supermarket;
+  text-align: center; 
+  font-size: 24px;
+}
+.index-m{
+  background-color: #283135;
+  border-radius: 15px;
+  border: 4px solid #e9cb5b;
+}
+.h1-g img{
+  width: 400px;
+  margin-top: -30px;
+} 
+.h1-g{
+  font-size: 60px; 
+  color: #fff; 
+  font-family: supermarket; 
+  text-align: center;
+} 
+.h1-g span{
+  font-size: 60px; 
+  color: #fff; 
+  font-family: Aqua-Grotesque; 
+  text-align: center;
+} 
+.h1-g span.x{
+  background-image: linear-gradient(to bottom, #c80909, #aa060b, #8d040b, #710408, #560402);
+  border-radius: 15px;
+  padding: 0px 20px;
+  font-family: supermarket; 
+  border: 1px solid #fff;
+  border-bottom: none;
+} 
+
+.h1-g span.x span.n{ 
+  font-family: Aqua-Grotesque; 
+}
+.h1-g1{
+  font-size: 72px; 
+  color: #c0d4dd; 
+  font-family: supermarket; 
+  text-align: center;
+} 
+.ccc{
+  position: absolute;
+  left: 10%;
+}
+.cc53{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: -96px;
+  margin-bottom: -90px;
+}
+.hr1{
+  background-image: url(../images/hr1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 2px;
+  height: 20px;
+}
+.box-count h3{
+  color: #2b3538;
+  font-weight: 24px;
+  font-family: supermarket; 
+  text-align: center;
+}
+
+.box-count .box{
+  background-image: url(../images/box-con.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120px 120px;
+  height: 120px; 
+  text-align: center;
+  color: #fff;
+  font-family: supermarket; 
+  font-size: 80px; 
+  line-height: 110px;
+  margin-bottom: 15px;
 }
 
 
