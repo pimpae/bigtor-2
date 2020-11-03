@@ -190,12 +190,7 @@ nav .order-2 form input[type="text"]:focus{
   background-repeat: no-repeat; 
 }
 
-.m-body2{ 
-  background: url(../images/bg-main.webp);
-  background-position: top center;
-  background-repeat: no-repeat;  
-  background-size: 100% 100% ;
-}
+
 
 .box1{
   margin-top: 10px; 
@@ -527,8 +522,7 @@ footer .f-2 .bb2 a{
 .index-t h1{
   color: #283135;
   font-family: supermarket;
-  text-align: center; 
-  font-size: 60px;
+  text-align: center;  
 }
 
 .index-t p{
@@ -546,14 +540,12 @@ footer .f-2 .bb2 a{
   width: 400px;
   margin-top: -30px;
 } 
-.h1-g{
-  font-size: 60px; 
+.h1-g{ 
   color: #fff; 
   font-family: supermarket; 
   text-align: center;
 } 
-.h1-g span{
-  font-size: 60px; 
+.h1-g span{  
   color: #fff; 
   font-family: Aqua-Grotesque; 
   text-align: center;
@@ -570,23 +562,13 @@ footer .f-2 .bb2 a{
 .h1-g span.x span.n{ 
   font-family: Aqua-Grotesque; 
 }
-.h1-g1{
-  font-size: 72px; 
+.h1-g1{ 
   color: #c0d4dd; 
   font-family: supermarket; 
   text-align: center;
 } 
-.ccc{
-  position: absolute;
-  left: 10%;
-}
-.cc53{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  margin-left: -96px;
-  margin-bottom: -90px;
-}
+
+
 .hr1{
   background-image: url(../images/hr1.png);
   background-repeat: no-repeat;
@@ -595,25 +577,11 @@ footer .f-2 .bb2 a{
   height: 20px;
 }
 .box-count h3{
-  color: #2b3538;
-  font-weight: 24px;
+  color: #2b3538; 
   font-family: supermarket; 
   text-align: center;
 }
 
-.box-count .box{
-  background-image: url(../images/box-con.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 120px 120px;
-  height: 120px; 
-  text-align: center;
-  color: #fff;
-  font-family: supermarket; 
-  font-size: 80px; 
-  line-height: 110px;
-  margin-bottom: 15px;
-}
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */
@@ -737,6 +705,55 @@ footer .f-2 .bb2 a{
     border-radius: 8px;
   }
 
+  .h1-g{
+    font-size: 30px;  
+  } 
+  .h1-g span{
+    font-size: 30px;  
+  } 
+  .h1-g1{
+    font-size: 32px;  
+  } 
+  .ccc{
+    position: absolute;
+    left: -30px;
+    margin-top: -30px;
+    width: 90px;
+  }
+  .cc53{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: -40px;
+    margin-bottom: -70px;
+    width: 150px;
+  }
+  .index-t h1{ 
+    font-size: 30px;
+  }
+  .m-body2{ 
+    background: url(../images/bg-main.webp);
+    background-position: center center;
+    background-repeat: no-repeat;  
+    background-size: 100vw 100% ;
+  }
+
+  .box-count .box{
+    background-image: url(../images/box-con.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70px 70px;
+    height: 70px; 
+    text-align: center;
+    color: #fff;
+    font-family: supermarket; 
+    font-size: 48px; 
+    line-height: 65px;
+    margin-bottom: 15px;
+  }
+  .box-count h3{ 
+    font-weight: 20px; 
+  }
 }
 @media only screen and (min-width: 992px) { /* PC */
   .h-line{
@@ -857,9 +874,55 @@ footer .f-2 .bb2 a{
     margin-top: 16%;
     border-right: 2px solid #242c31; 
   }
+  .h1-g{
+    font-size: 60px;  
+  } 
+  .h1-g span{
+    font-size: 60px;  
+  } 
+  .h1-g1{
+    font-size: 72px;  
+  } 
+  .ccc{
+    position: absolute;
+    left: 10%;
+  }
+  .cc53{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: -96px;
+    margin-bottom: -90px;
+  }
+  .index-t h1{ 
+    font-size: 60px;
+  }
+  .m-body2{ 
+    background: url(../images/bg-main.webp);
+    background-position: top center;
+    background-repeat: no-repeat;  
+    background-size: 100% 100% ;
+  }
+
+  .box-count .box{
+    background-image: url(../images/box-con.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 120px 120px;
+    height: 120px; 
+    text-align: center;
+    color: #fff;
+    font-family: supermarket; 
+    font-size: 80px; 
+    line-height: 110px;
+    margin-bottom: 15px;
+  }
+  .box-count h3{ 
+    font-weight: 24px; 
+  }
 }
 
-@media only screen and (width: 1024px) { /* PC */
+@media only screen and (width: 1024px) { /* IPAD PRO */
   .m-box4 h2{ 
     font-size: 28px;
   }
