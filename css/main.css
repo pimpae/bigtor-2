@@ -184,11 +184,7 @@ nav .order-2 form input[type="text"]:focus{
   font-family: Aqua-Grotesque;
 }
 
-.m-body{ 
-  background: url(../images/BG.webp);
-  background-position: center center;
-  background-repeat: no-repeat; 
-}
+
 
 
 
@@ -581,7 +577,30 @@ footer .f-2 .bb2 a{
   font-family: supermarket; 
   text-align: center;
 }
-
+.ab-text{
+  background-color: #242c31;
+  color: rgba(255,255,255,.6); 
+  font-family: supermarket; 
+  text-align: center;  
+  display: block;
+  
+}
+.bg-text-r{
+  color: #e8e8e8;
+  background-color: #242c31; 
+  font-family: supermarket; 
+  padding: 20px 20px 20px 25px;
+  font-size: 20px;
+  border-radius: 15px;
+} 
+.etxt h3{
+  color: #2b3438;
+  font-family: Aqua-Grotesque;  
+}
+.etxt p{
+  color: rgba(30,30,30,.5); 
+  font-family: supermarket; 
+}
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */
@@ -754,6 +773,28 @@ footer .f-2 .bb2 a{
   .box-count h3{ 
     font-weight: 20px; 
   }
+  .ab-text{
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 40px;
+    margin-bottom: 15px;
+  } 
+  .etxt h3{
+    color: #2b3438;
+    font-family: Aqua-Grotesque; 
+    font-size: 30px;
+  }
+  .etxt p{
+    color: rgba(30,30,30,.5); 
+    font-family: supermarket; 
+    font-size: 18px;
+  }
+  .m-body{ 
+    background: url(../images/BG.webp);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+  }
 }
 @media only screen and (min-width: 992px) { /* PC */
   .h-line{
@@ -919,6 +960,30 @@ footer .f-2 .bb2 a{
   }
   .box-count h3{ 
     font-weight: 24px; 
+  }
+  .ab-text{
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  .etxt{
+    padding-right: 15px !important;
+  }
+  .etxt h3{
+    color: #2b3438;
+    font-family: Aqua-Grotesque; 
+    font-size: 40px;
+  }
+  .etxt p{
+    color: rgba(30,30,30,.5); 
+    font-family: supermarket; 
+    font-size: 25px;
+  }
+  .m-body{ 
+    background: url(../images/BG.webp);
+    background-position: center center;
+    background-repeat: no-repeat; 
   }
 }
 
