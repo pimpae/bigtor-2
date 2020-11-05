@@ -388,8 +388,7 @@ footer .ss-x{
   font-family: THSarabun-Bold;
   text-transform: uppercase;
   color: #bebebe;
-  font-size: 40px;
-  padding-left: 30px;
+  font-size: 40px; 
   cursor: default; 
   margin-bottom: -30px;
   padding-top: 5px;
@@ -524,8 +523,7 @@ footer .f-2 .bb2 a{
 .index-t p{
   color: #283135;
   font-family: supermarket;
-  text-align: center; 
-  font-size: 24px;
+  text-align: center;  
 }
 .index-m{
   background-color: #283135;
@@ -601,6 +599,39 @@ footer .f-2 .bb2 a{
   color: rgba(30,30,30,.5); 
   font-family: supermarket; 
 }
+.list-t h1{
+  color: #bed3dc; 
+  text-align: center;
+  font-family: supermarket; 
+}
+.list-m{
+  background-color: #283135;
+  border-radius: 15px;
+  border: 4px solid #e9cb5b; 
+}
+.list-m h3{
+  color: #e6b661;
+  text-align: center;
+  font-family: supermarket; 
+}
+.list-m h5{
+  color: #fff;
+  text-align: center;
+  font-family: supermarket; 
+}
+.list-m .box{
+  background-color: #3d464b; 
+}
+.list-m .box p{ 
+  color: #fff; 
+  font-family: supermarket; 
+}
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */
@@ -751,10 +782,16 @@ footer .f-2 .bb2 a{
     font-size: 30px;
   }
   .m-body2{ 
-    background: url(../images/bg-main.webp);
-    background-position: center center;
+    background: url(../images/h-bg2.webp);
+    background-position:  top bottom;
     background-repeat: no-repeat;  
-    background-size: 100vw 100% ;
+    background-size: 100% 100% ;
+  }
+  .m-body2-list{ 
+    background: url(../images/bg-list.webp);
+    background-position:  top bottom;
+    background-repeat: no-repeat;  
+    background-size: 100% 100% ;
   }
 
   .box-count .box{
@@ -794,6 +831,32 @@ footer .f-2 .bb2 a{
     background-position: center center;
     background-repeat: no-repeat; 
     background-size: 100% 100%;
+  }
+  .index-t p{ 
+    font-size: 16px;
+  } 
+  footer .ss-x{ 
+    padding-left: 0px; 
+  }
+  .list-t h1{ 
+    font-size: 30px;
+  }
+  .list-m{ 
+    padding: 30px 15px 20px;
+  }
+  .list-m h3{ 
+    font-size: 24px;
+  }
+  .list-m h5{ 
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .list-m .box{ 
+    padding: 30px 15px 20px;
+    border-radius: 8px;
+  }
+  .list-m .box p{  
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 992px) { /* PC */
@@ -939,7 +1002,13 @@ footer .f-2 .bb2 a{
     font-size: 60px;
   }
   .m-body2{ 
-    background: url(../images/bg-main.webp);
+    background: url(../images/h-bg.webp);
+    background-position: top center;
+    background-repeat: no-repeat;  
+    background-size: 100% 100% ;
+  }
+  .m-body2-list{ 
+    background: url(../images/bg-list.webp);
     background-position: top center;
     background-repeat: no-repeat;  
     background-size: 100% 100% ;
@@ -984,6 +1053,72 @@ footer .f-2 .bb2 a{
     background: url(../images/BG.webp);
     background-position: center center;
     background-repeat: no-repeat; 
+  }
+  .index-t p{ 
+    font-size: 24px;
+  } 
+  footer .ss-x{ 
+    padding-left: 30px; 
+  }
+  .list-t h1{ 
+    font-size: 72px;
+  }
+  .list-m{ 
+    padding: 60px 30px;
+  }
+  .list-m h3{ 
+    font-size: 36px;
+  }
+  .list-m h5{ 
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .list-m .box{ 
+    padding: 30px 90px;
+    border-radius: 15px;
+  }
+  .list-m .box p{  
+    font-size: 24px;
+  }
+  .mj-1:before{
+    content: "";
+    background-image: url(../images/mj-1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: absolute;
+    z-index: 100;
+    width: 462px;
+    height: 795px;
+    bottom: 0;
+    margin-left: -220px;
+    margin-bottom: -90px;
+  }
+  .mj-2:after{
+    content: "";
+    background-image: url(../images/mj-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: absolute;
+    z-index: 100;
+    width: 267px;
+    height: 499px;
+    bottom: 0;
+    right: 0;
+    margin-right: -120px;
+    margin-bottom: -90px;
+  }
+  .mj-3:before{
+    content: "";
+    background-image: url(../images/mj-3.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: absolute;
+    z-index: 100;
+    width: 165px;
+    height: 310px;
+    bottom: 0;
+    margin-left: -105px;
+    margin-bottom: -90px;
   }
 }
 
