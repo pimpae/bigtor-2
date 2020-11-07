@@ -604,6 +604,11 @@ footer .f-2 .bb2 a{
   text-align: center;
   font-family: supermarket; 
 }
+.list-r h1{
+  color: #bed3dc; 
+  text-align: center;
+  font-family: supermarket; 
+}
 .list-m{
   background-color: #283135;
   border-radius: 15px;
@@ -627,10 +632,68 @@ footer .f-2 .bb2 a{
   font-family: supermarket; 
 }
 
+.tb-ru{
+  border: 2px solid #f2c769;
+  border-radius: 15px;
+}
+ 
+.tb-ru .table{
+  margin-bottom: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tb-ru{
+  border: 4px solid #f2c769;
+}
+.tb-ru .table-bordered td, .tb-ru .table-bordered th {
+  border: 1px solid #f2c769 !important; 
+} 
+.tb-ru table thead {
+  background-color: #7a6726;
+  text-align: center;
+  color: #deedf4; 
+  font-family: supermarket;  
+}
+.tb-ru table tfoot {
+  background-color: #2b3438;
+  text-align: center;
+  color: #deedf4; 
+  font-family: supermarket;  
+}
+.tb-ru table tbody{
+  text-align: center;
+  color: #deedf4; 
+  font-family: supermarket;  
+}
+.tb-ru table tbody tr td{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tb-ru table thead tr th{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tb-ru table tfoot tr th{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tb-ru table tbody tr:nth-child(odd) {
+  background-color: #2b3438;
+}
+.tb-ru table tbody tr:nth-child(even) {
+  background-color: #3d464b;
+}
+
+
+.list-r p{
+  color: #59666c; 
+  font-family: supermarket;  
+} 
 
 
 
-
+/*:nth-child(2
+  last-child*/
 
 
 
@@ -794,6 +857,13 @@ footer .f-2 .bb2 a{
     background-size: 100% 100% ;
   }
 
+  .m-body2-r{ 
+    background: url(../images/bg-r.webp);
+    background-position:  top bottom;
+    background-repeat: no-repeat;  
+    background-size: 100% 100% ;
+  }
+
   .box-count .box{
     background-image: url(../images/box-con.png);
     background-repeat: no-repeat;
@@ -841,6 +911,9 @@ footer .f-2 .bb2 a{
   .list-t h1{ 
     font-size: 30px;
   }
+  .list-r h1{ 
+    font-size: 24px;
+  }
   .list-m{ 
     padding: 30px 15px 20px;
   }
@@ -857,6 +930,22 @@ footer .f-2 .bb2 a{
   }
   .list-m .box p{  
     font-size: 16px;
+  }
+
+  .tb-ru table thead { 
+    font-size: 20px;
+  }
+  .tb-ru table tbody{ 
+    font-size: 16px;
+  }
+  .tb-ru table tfoot { 
+    font-size: 20px;
+  }
+  .list-r p{ 
+    font-size: 15px;
+  }
+  .list-r p span{
+    padding-left: 15px;
   }
 }
 @media only screen and (min-width: 992px) { /* PC */
@@ -1014,6 +1103,13 @@ footer .f-2 .bb2 a{
     background-size: 100% 100% ;
   }
 
+  .m-body2-r{ 
+    background: url(../images/bg-r.webp);
+    background-position: top center;
+    background-repeat: no-repeat;  
+    background-size: 100% 100% ;
+  }
+
   .box-count .box{
     background-image: url(../images/box-con.png);
     background-repeat: no-repeat;
@@ -1062,6 +1158,9 @@ footer .f-2 .bb2 a{
   }
   .list-t h1{ 
     font-size: 72px;
+  }
+  .list-r h1{ 
+    font-size: 36px;
   }
   .list-m{ 
     padding: 60px 30px;
@@ -1119,6 +1218,21 @@ footer .f-2 .bb2 a{
     bottom: 0;
     margin-left: -105px;
     margin-bottom: -90px;
+  }
+  .tb-ru table thead { 
+    font-size: 34px;
+  }
+  .tb-ru table tbody{ 
+    font-size: 22px;
+  }
+  .tb-ru table tfoot { 
+    font-size: 34px;
+  } 
+  .list-r p{ 
+    font-size: 20px;
+  }
+  .list-r p span{
+    padding-left: 35px;
   }
 }
 
