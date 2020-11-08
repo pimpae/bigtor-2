@@ -690,11 +690,56 @@ footer .f-2 .bb2 a{
   font-family: supermarket;  
 } 
 
+.award-box{
+  background-color: #2b3438; 
+  border-radius: 15px;
+  border: 2px solid #e8ecea; 
+  overflow: hidden;
+}
+/*.award-box.bg-r{ 
+  background-image: url('../images/triangle.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 100% auto; 
+}*/
 
+/*.award-box.bg-l{ 
+  background-image: url('../images/triangle-l.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 100% auto; 
+}*/
 
-/*:nth-child(2
-  last-child*/
-
+.award-box h2{
+  font-family: supermarket; 
+  color: #e6b661; 
+  z-index: 10;
+  position: relative;
+}
+.award-box h2 span{ 
+  color: #d1ebf8; 
+}
+.award-box form input{
+  font-family: supermarket;  
+  color: #7c7c7c; 
+  border-radius: 12px; 
+  letter-spacing: 5px;
+  position: relative;
+  z-index: 10;
+} 
+.award-box form input::placeholder {
+  color: #7c7c7c;
+  letter-spacing: 0px;
+}
+.btn-check{
+  position: absolute;
+  right: 0;
+  background-color: #efb43d;
+  border-radius: 12px; 
+  border: none;
+  color: #fff;  
+  z-index: 11;
+}
 
 
 @media only screen and (max-width: 991px) { /* MOBILE */
@@ -856,6 +901,12 @@ footer .f-2 .bb2 a{
     background-repeat: no-repeat;  
     background-size: 100% 100% ;
   }
+  .m-body2-check{ 
+    background: url(../images/bg-check.webp);
+    background-position:  top bottom;
+    background-repeat: no-repeat;  
+    background-size: 100% 100% ;
+  }
 
   .m-body2-r{ 
     background: url(../images/bg-r.webp);
@@ -946,6 +997,24 @@ footer .f-2 .bb2 a{
   }
   .list-r p span{
     padding-left: 15px;
+  }
+  .award-box{ 
+    padding: 15px 30px;
+    margin-bottom: 30px;
+  }
+  .award-box h2{ 
+    font-size: 24px; 
+    text-align: center;
+  } 
+  .award-box form input{ 
+    font-size: 16px; 
+    padding-left: 15px; 
+  } 
+  .btn-check{ 
+    margin-right: 18px;  
+    margin-top: -36px;
+    font-size: 14px;
+    padding: 6px 10px;  
   }
 }
 @media only screen and (min-width: 992px) { /* PC */
@@ -1102,6 +1171,12 @@ footer .f-2 .bb2 a{
     background-repeat: no-repeat;  
     background-size: 100% 100% ;
   }
+  .m-body2-check{ 
+    background: url(../images/bg-check.webp);
+    background-position: top center;
+    background-repeat: no-repeat;  
+    background-size: 100% 100% ;
+  }
 
   .m-body2-r{ 
     background: url(../images/bg-r.webp);
@@ -1233,6 +1308,49 @@ footer .f-2 .bb2 a{
   }
   .list-r p span{
     padding-left: 35px;
+  }
+  .award-box{ 
+    padding: 30px 60px;
+    margin-bottom: 60px;
+  }
+  .award-box h2{ 
+    font-size: 40px; 
+    margin-bottom: 0px;
+  } 
+  .award-box form input{ 
+    font-size: 24px; 
+    padding-left: 30px; 
+  } 
+  .btn-check{ 
+    margin-right: 20px;  
+    margin-top: -45px;
+    padding: 8px 12px;  
+  }
+  .award-box.bg-r:after{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%; 
+    height: 400%;
+    margin-top: -100px;
+    background-color: rgba(95,104,112,.5);
+    background-size: 40% 400%; 
+    transform: rotate(-75deg);
+    z-index: 1;
+  }
+  .award-box.bg-l:after{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%; 
+    height: 400%;
+    margin-top: -100px;
+    background-color: rgba(95,104,112,.5);
+    background-size: 40% 400%; 
+    transform: rotate(75deg);
+    z-index: 1;
   }
 }
 
